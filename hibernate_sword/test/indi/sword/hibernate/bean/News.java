@@ -3,14 +3,42 @@ package indi.sword.hibernate.bean;
 import java.sql.Blob;
 import java.util.Date;
 
+
 public class News {
-	
-	private Integer id; //field
+
+	private Integer id;
 	private String title;
 	private String author;
+
 	private Date date;
 
-	public Integer getId() { //property
+	//该属性值为： title: author
+	private String desc;
+
+	//大文本
+	private String content;
+	//二进制数据
+	private Blob image;
+
+
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Blob getImage() {
+		return image;
+	}
+
+	public void setImage(Blob image) {
+		this.image = image;
+	}
+
+	public Integer getId() {
 		return id;
 	}
 
@@ -48,7 +76,7 @@ public class News {
 		this.author = author;
 		this.date = date;
 	}
-	
+
 	public News() {
 		// TODO Auto-generated constructor stub
 	}
@@ -58,7 +86,16 @@ public class News {
 		return "News [id=" + id + ", title=" + title + ", author=" + author
 				+ ", date=" + date + "]";
 	}
-	
-	
-	
+
+	public String getDesc() {
+		return desc;
+	}
+
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+
+
+
+
 }
