@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="indi.sword.hibernate">
+
+    <class name="indi.sword.hibernate.helloworld.News" table="T_NEWS" dynamic-insert="true">
+    	
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <!-- 指定主键的生成方式, native: 使用数据库本地方式 -->
+            <generator class="native" />
+        </id>
+    
+        <property name="title" not-null="true" unique="true"
+        	index="news_index" length="50"
+        	type="java.lang.String" column="TITLE" >
+        </property>
+        
+        <property name="author" type="java.lang.String"
+        	index="news_index">
+            <column name="AUTHOR" />
+        </property>
+        
+        <property name="date" type="date">
+            <column name="DATE" />
+        </property>
+    </class>
+    
+</hibernate-mapping>

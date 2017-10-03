@@ -26,8 +26,29 @@
 		<property name="hbm2ddl.auto">update</property>
 
 		<!-- 指定关联的 .hbm.xml文件 -->
-		<mapping resource="indi/sword/hibernate/News.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/Worker.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/helloworld/News.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/helloworld/Worker.hbm.xml" />
+
+<!--
+
+		<mapping resource="indi/sword/hibernate/n21/Customer.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/n21/Order.hbm.xml" />
+-->
+
+		<mapping resource="indi/sword/hibernate/n21/both/Customer.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/n21/both/Order.hbm.xml" />
+<!--
+		<mapping resource="indi/sword/hibernate/one2one/foreign/Department.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/one2one/foreign/Manager.hbm.xml" />
+-->
+
+		<mapping resource="indi/sword/hibernate/one2one/primary/Department.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/one2one/primary/Manager.hbm.xml" />
+
+		<mapping resource="indi/sword/hibernate/n2n/Category.hbm.xml" />
+		<mapping resource="indi/sword/hibernate/n2n/Item.hbm.xml" />
+
+		<mapping resource="indi/sword/hibernate/subclass/Person.hbm.xml" />
 
 	</session-factory>
 </hibernate-configuration>
