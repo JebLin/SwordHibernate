@@ -16,99 +16,97 @@
       <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Category.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Item.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/HibernateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Person.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="239">
+              <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HibernateTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/HibernateTest.java">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/strategy/HibernateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="-638">
+              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/DepartmentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-92">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Item.java">
+      <file leaf-file-name="HibernateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/HibernateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="374" column="24" lean-forward="true" selection-start-line="374" selection-start-column="24" selection-end-line="374" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1507109574843" expanded="true" signature="11772:11815" ph="INSERT INTO t_query_department... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/HibernateUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Department.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Department.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Employee.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-356">
+              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +138,7 @@
       <find>session</find>
       <find>session-fa</find>
       <find>session-fac</find>
+      <find>ATGUIGU</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -150,24 +149,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/Test01.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/News.hbm.xml" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/bean/News.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/bean/Worker.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/bean/n21/Customer.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/BaseTest.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/Test02.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/TestComponent.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/Worker.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/TestComponentN21.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/bean/n21/both/Order.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/Order.hbm.xml" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Order.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/HibernateTest.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/News.java" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Test01.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/TestComponent.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Worker.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Pay.java" />
@@ -182,16 +169,37 @@
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Manager.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/HibernateTest.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Manager.hbm.xml" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Department.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign/Manager.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign/Department.hbm.xml" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Test01.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n2n/HibernateTest.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Category.hbm.xml" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Item.hbm.xml" />
-        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/subclass/HibernateTest.java" />
         <option value="$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/subclass/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/joined_subclass/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/joined_subclass/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/union_subclass/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/union_subclass/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Test01.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/indi/sword/hibernate/Customer.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/Order.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Customer.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Order.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Test01.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Order.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Customer.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Order.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/strategy/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Customer.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/query/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/query/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/query/Employee.hbm.xml" />
         <option value="$PROJECT_DIR$/test/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/query/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/query/TempEntity.java" />
+        <option value="$PROJECT_DIR$/test/indi/sword/hibernate/query/HibernateTest.java" />
       </list>
     </option>
   </component>
@@ -202,9 +210,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="667" />
-    <option name="width" value="1253" />
-    <option name="height" value="1046" />
+    <option name="x" value="847" />
+    <option name="width" value="1072" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -221,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,15 +277,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate_sword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate_sword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,19 +314,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SwordTreasure/SwordUtil" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\helloworld" />
-      <recent name="F:\code\Java\git\SwordTreasure\hibernate_sword\test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\query" />
+      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate" />
+      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\strategy" />
+      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\src\indi\sword\hibernate" />
+      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\union_subclass" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="indi.sword.hibernate.n21" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\subclass" />
-      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\n2n" />
-      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\one2one\primary" />
-      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\one2one\foreign" />
-      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\n21\both" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\Java\git\SwordHibernate\SwordHibernate\hibernate_sword\test\indi\sword\hibernate\helloworld" />
+      <recent name="F:\code\Java\git\SwordTreasure\hibernate_sword\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,20 +341,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateTest.testQuery">
-    <configuration default="false" name="HibernateTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HibernateTest.testHQLUpdate">
+    <configuration default="false" name="HibernateTest.testInnerJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="indi.sword.hibernate.n2n.*" />
+          <option name="PATTERN" value="indi.sword.hibernate.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="hibernate_sword" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="indi.sword.hibernate.n2n" />
-      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.n2n.HibernateTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="PACKAGE_NAME" value="indi.sword.hibernate.query" />
+      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.query.HibernateTest" />
+      <option name="METHOD_NAME" value="testInnerJoin" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -342,19 +368,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateTest.testQBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="indi.sword.hibernate.n2n.*" />
+          <option name="PATTERN" value="indi.sword.hibernate.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="hibernate_sword" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="indi.sword.hibernate.n2n" />
-      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.n2n.HibernateTest" />
-      <option name="METHOD_NAME" value="testGet" />
+      <option name="PACKAGE_NAME" value="indi.sword.hibernate.query" />
+      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.query.HibernateTest" />
+      <option name="METHOD_NAME" value="testQBC" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -368,19 +394,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateTest.testGet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateTest.testQBC3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="indi.sword.hibernate.n2n.*" />
+          <option name="PATTERN" value="indi.sword.hibernate.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="hibernate_sword" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="indi.sword.hibernate.n2n" />
-      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.n2n.HibernateTest" />
-      <option name="METHOD_NAME" value="testGet2" />
+      <option name="PACKAGE_NAME" value="indi.sword.hibernate.query" />
+      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.query.HibernateTest" />
+      <option name="METHOD_NAME" value="testQBC3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -394,19 +420,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateTest.testSave (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateTest.testNativeSQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="indi.sword.hibernate.subclass.*" />
+          <option name="PATTERN" value="indi.sword.hibernate.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="hibernate_sword" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="indi.sword.hibernate.subclass" />
-      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.subclass.HibernateTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="PACKAGE_NAME" value="indi.sword.hibernate.query" />
+      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.query.HibernateTest" />
+      <option name="METHOD_NAME" value="testNativeSQL" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -420,19 +446,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateTest.testHQLUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="indi.sword.hibernate.subclass.*" />
+          <option name="PATTERN" value="indi.sword.hibernate.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="hibernate_sword" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="indi.sword.hibernate.subclass" />
-      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.subclass.HibernateTest" />
-      <option name="METHOD_NAME" value="testQuery" />
+      <option name="PACKAGE_NAME" value="indi.sword.hibernate.query" />
+      <option name="MAIN_CLASS_NAME" value="indi.sword.hibernate.query.HibernateTest" />
+      <option name="METHOD_NAME" value="testHQLUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -850,19 +876,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateTest.testSave" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateTest.testGet" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateTest.testGet2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateTest.testSave (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateTest.testQuery" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateTest.testInnerJoin" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateTest.testQBC" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateTest.testQBC3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateTest.testNativeSQL" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateTest.testHQLUpdate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateTest.testQuery" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateTest.testSave (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateTest.testGet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateTest.testSave" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateTest.testGet2" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateTest.testHQLUpdate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateTest.testNativeSQL" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateTest.testQBC3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateTest.testQBC" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateTest.testInnerJoin" />
       </list>
     </recent_temporary>
   </component>
@@ -879,79 +905,111 @@
       <workItem from="1506823654267" duration="9149000" />
       <workItem from="1506857833299" duration="2451000" />
       <workItem from="1506901095584" duration="24843000" />
-      <workItem from="1506998424938" duration="9777000" />
+      <workItem from="1506998424938" duration="20479000" />
+      <workItem from="1507076654103" duration="12481000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HibernateTest_testGet - 2017.10.03 at 15h 21m 31s.xml">
-      <configuration name="HibernateTest.testGet" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testHQLUpdate - 2017.10.04 at 17h 33m 22s.xml">
+      <configuration name="HibernateTest.testHQLUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testGet - 2017.10.03 at 15h 24m 01s.xml">
-      <configuration name="HibernateTest.testGet" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testInnerJoin - 2017.10.04 at 17h 17m 35s.xml">
+      <configuration name="HibernateTest.testInnerJoin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testGet2 - 2017.10.03 at 15h 22m 43s.xml">
-      <configuration name="HibernateTest.testGet2" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testInnerJoinFetch - 2017.10.04 at 17h 17m 28s.xml">
+      <configuration name="HibernateTest.testInnerJoinFetch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testQuery - 2017.10.03 at 15h 48m 57s.xml">
-      <configuration name="HibernateTest.testQuery" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testNativeSQL - 2017.10.04 at 17h 32m 37s.xml">
+      <configuration name="HibernateTest.testNativeSQL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testSave - 2017.10.03 at 15h 20m 04s.xml">
-      <configuration name="HibernateTest.testSave" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testQBC - 2017.10.04 at 17h 24m 39s.xml">
+      <configuration name="HibernateTest.testQBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testSave - 2017.10.03 at 15h 23m 37s.xml">
-      <configuration name="HibernateTest.testSave" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testQBC - 2017.10.04 at 17h 25m 16s.xml">
+      <configuration name="HibernateTest.testQBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testSave_(1) - 2017.10.03 at 15h 40m 29s.xml">
-      <configuration name="HibernateTest.testSave (1)" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testQBC - 2017.10.04 at 17h 25m 26s.xml">
+      <configuration name="HibernateTest.testQBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateTest_testSave_(1) - 2017.10.03 at 15h 40m 52s.xml">
-      <configuration name="HibernateTest.testSave (1)" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testQBC - 2017.10.04 at 17h 25m 46s.xml">
+      <configuration name="HibernateTest.testQBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_testGet2_(1) - 2017.10.03 at 12h 28m 14s.xml">
-      <configuration name="Test01.testGet2 (1)" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testQBC - 2017.10.04 at 17h 26m 01s.xml">
+      <configuration name="HibernateTest.testQBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_testGet_(1) - 2017.10.03 at 12h 27m 48s.xml">
-      <configuration name="Test01.testGet (1)" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testQBC3 - 2017.10.04 at 17h 27m 31s.xml">
+      <configuration name="HibernateTest.testQBC3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46220000" />
+    <option name="totallyTimeSpent" value="69403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="667" y="0" width="1253" height="1046" extended-state="0" />
+    <frame x="847" y="0" width="1072" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5241758" sideWeight="0.50282943" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5758242" sideWeight="0.29991916" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.389011" sideWeight="0.49717057" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30120483" sideWeight="0.7000808" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813258" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6467803" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25604397" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5487404" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23308958" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5758242" sideWeight="0.29991916" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23308958" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5487404" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2935378" sideWeight="0.7000808" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6467803" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -975,7 +1033,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -984,189 +1042,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.4.Final.jar!/org/hibernate/SharedSessionContract.class">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.4.Final.jar!/org/hibernate/Criteria.class">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/HibernateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.4.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="114" column="61" lean-forward="true" selection-start-line="114" selection-start-column="61" selection-end-line="114" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.4.Final.jar!/org/hibernate/internal/SessionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="828" column="16" lean-forward="false" selection-start-line="828" selection-start-column="16" selection-end-line="828" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.7-bin.jar!/com/mysql/jdbc/Blob.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/Order.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="286">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/Customer.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Order.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Customer.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Worker.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Pay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Worker.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/News.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/joined_subclass/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="61" lean-forward="true" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/joined_subclass/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/TestComponent.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/union_subclass/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/union_subclass/Person.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/union_subclass/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Manager.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/code/Java/jdk-SE8.0/install/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="803" column="16" lean-forward="false" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indi/sword/hibernate/Customer.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,86 +1146,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Customer.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/Order.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Test02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate_sword.iml">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/Customer.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign/Manager.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Customer.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign/Department.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n21/both/Order.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1266,6 +1180,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1278,77 +1199,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Manager.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Department.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/foreign/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/HibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Category.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="374">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/n2n/Item.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="528">
           <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/joined_subclass/Person.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Person.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1356,39 +1231,209 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Student.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Department.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/one2one/primary/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/Person.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/hibernate_sword.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/helloworld/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/union_subclass/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.4.Final.jar!/org/hibernate/Hibernate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/code/Java/jdk-SE8.0/install/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="183" column="18" lean-forward="false" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#551#552#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Order.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Customer.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/strategy/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+        <state relative-caret-position="239">
+          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/subclass/HibernateTest.java">
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/strategy/HibernateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="-638">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Department.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Employee.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/TempEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/indi/sword/hibernate/query/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="374" column="24" lean-forward="true" selection-start-line="374" selection-start-column="24" selection-end-line="374" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1507109574843" expanded="true" signature="11772:11815" ph="INSERT INTO t_query_department... " />
+          </folding>
         </state>
       </provider>
     </entry>

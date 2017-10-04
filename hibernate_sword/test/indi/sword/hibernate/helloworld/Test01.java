@@ -1,6 +1,5 @@
 package indi.sword.hibernate.helloworld;
 
-import indi.sword.hibernate.helloworld.News;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
-<hibernate-mapping package="indi.sword.hibernate.bean.n21.both">
+<hibernate-mapping package="indi.sword.hibernate.n21.both">
     
     <class name="indi.sword.hibernate.n21.both.Customer" table="T_N21_BOTH_CUSTOMERS">
     

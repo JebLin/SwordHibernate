@@ -26,7 +26,10 @@ public class Test01 extends BaseTest{
     public void testGet(){
         //1. 默认情况下对关联属性使用懒加载
         Department dept = (Department) session.get(Department.class, 1);
+//        Department dept = (Department) session.load(Department.class, 1);
         System.out.println("-----------------");
+        System.out.println(dept.getDeptId());// 注意这个地方，假如仅仅上面是load的时候，而且这里只查询OID那么不会发select
+        System.out.println("------------------");
         System.out.println(dept.getDeptName());
 
         //2. 所以会出现懒加载异常的问题.
