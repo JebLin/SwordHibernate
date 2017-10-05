@@ -1,64 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC
-		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-	<session-factory>
+    <session-factory>
 
-		<!-- 配置连接数据库的基本信息 -->
-		<property name="connection.username">root</property>
-		<property name="connection.password">123456</property>
-		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-		<!-- 这样写有BUG <property name="connection.url">jdbc:mysql://hibernate_201710</property>-->
-		<property name="connection.url">jdbc:mysql://localhost:3306/hibernate_201710</property>
+        <!-- 配置连接数据库的基本信息 -->
+        <property name="connection.username">root</property>
+        <property name="connection.password">123456</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!-- 这样写有BUG <property name="connection.url">jdbc:mysql://hibernate_201710</property>-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernate_201710</property>
 
-		<!-- 配置Hibernate基本信息 -->
-		<!-- hibernate 所使用的数据库方言 -->
-		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- 配置Hibernate基本信息 -->
+        <!-- hibernate 所使用的数据库方言 -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
-		<!-- 执行操作时是否在控制台打印 SQL -->
-		<property name="show_sql">true</property>
+        <!-- 执行操作时是否在控制台打印 SQL -->
+        <property name="show_sql">true</property>
 
-		<!-- 是否对SQL进行格式化 -->
-		<property name="format_sql">true</property>
+        <!-- 是否对SQL进行格式化 -->
+        <property name="format_sql">true</property>
 
-		<!-- 指定自动生成数据库表的策略 -->
-		<property name="hbm2ddl.auto">update</property>
+        <!-- 指定自动生成数据库表的策略 -->
+        <property name="hbm2ddl.auto">update</property>
 
-		<!-- 指定关联的 .hbm.xml文件 -->
+        <!-- 删除对象后, 使其 OID 置为 null -->
+        <property name="use_identifier_rollback">true</property>
 
-<!--
-		<mapping resource="indi/sword/hibernate/helloworld/News.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/helloworld/Worker.hbm.xml" />
+        <!-- 启用二级缓存 -->
+        <property name="cache.use_second_level_cache">true</property>
 
-		<mapping resource="indi/sword/hibernate/n21/Customer.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/n21/Order.hbm.xml" />
+        <!-- 配置使用的二级缓存的产品 -->
+        <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory
+        </property>
 
+        <!-- 配置管理 Session 的方式 -->
+        <property name="current_session_context_class">thread</property>
 
-		<mapping resource="indi/sword/hibernate/n21/both/Customer.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/n21/both/Order.hbm.xml" />
-
-		<mapping resource="indi/sword/hibernate/one2one/foreign/Department.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/one2one/foreign/Manager.hbm.xml" />
-
-
-		<mapping resource="indi/sword/hibernate/one2one/primary/Department.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/one2one/primary/Manager.hbm.xml" />
-
-		<mapping resource="indi/sword/hibernate/n2n/Category.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/n2n/Item.hbm.xml" />
+        <!-- 设置 Hibernate 的事务隔离级别 -->
+        <property name="connection.isolation">2</property>
+        <!-- 指定关联的 .hbm.xml文件 -->
 
 
-		<mapping resource="indi/sword/hibernate/subclass/Person.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/joined_subclass/Person.hbm.xml" />
+        <mapping resource="indi/sword/hibernate/helloworld/News.hbm.xml"/>
+        <mapping resource="indi/sword/hibernate/helloworld/Worker.hbm.xml"/>
+        <!--
+                    <mapping resource="indi/sword/hibernate/n21/Customer.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/n21/Order.hbm.xml" />
 
-		<mapping resource="indi/sword/hibernate/union_subclass/Person.hbm.xml" />
 
-		<mapping resource="indi/sword/hibernate/strategy/Customer.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/strategy/Order.hbm.xml" />
--->
-		<mapping resource="indi/sword/hibernate/query/Department.hbm.xml" />
-		<mapping resource="indi/sword/hibernate/query/Employee.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/n21/both/Customer.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/n21/both/Order.hbm.xml" />
 
-	</session-factory>
+                    <mapping resource="indi/sword/hibernate/one2one/foreign/Department.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/one2one/foreign/Manager.hbm.xml" />
+
+
+                    <mapping resource="indi/sword/hibernate/one2one/primary/Department.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/one2one/primary/Manager.hbm.xml" />
+
+                    <mapping resource="indi/sword/hibernate/n2n/Category.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/n2n/Item.hbm.xml" />
+
+
+                    <mapping resource="indi/sword/hibernate/subclass/Person.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/joined_subclass/Person.hbm.xml" />
+
+                    <mapping resource="indi/sword/hibernate/union_subclass/Person.hbm.xml" />
+
+                    <mapping resource="indi/sword/hibernate/strategy/Customer.hbm.xml" />
+                    <mapping resource="indi/sword/hibernate/strategy/Order.hbm.xml" />
+                -->
+        <mapping resource="indi/sword/hibernate/query/Department.hbm.xml"/>
+        <mapping resource="indi/sword/hibernate/query/Employee.hbm.xml"/>
+
+        <!-- 配置哪些类使用二级缓存 -->
+        <class-cache usage="read-write" class="indi.sword.hibernate.query.Employee"/>
+        <class-cache usage="read-write" class="indi.sword.hibernate.query.Department"/>
+        <collection-cache usage="read-write" collection="indi.sword.hibernate.query.Department.emps"/>
+    </session-factory>
 </hibernate-configuration>

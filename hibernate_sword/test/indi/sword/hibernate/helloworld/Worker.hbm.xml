@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2014-1-2 16:14:33 by Hibernate Tools 3.4.0.CR1 -->
-<hibernate-mapping package="indi.sword.hibernate.bean">
+<hibernate-mapping package="indi.sword.hibernate.helloworld">
     <class name="indi.sword.hibernate.helloworld.Worker" table="t_WORKER">
         <id name="id" type="java.lang.Integer">
             <column name="ID" />

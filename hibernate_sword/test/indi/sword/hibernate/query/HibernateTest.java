@@ -1,11 +1,14 @@
 package indi.sword.hibernate.query;
 
 import indi.sword.hibernate.BaseTest;
-import org.hibernate.Criteria;
-import org.hibernate.Query;
+import indi.sword.hibernate.helloworld.News;
+import org.hibernate.*;
 import org.hibernate.criterion.*;
+import org.hibernate.jdbc.Work;
 import org.junit.Test;
 
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.*;
 
 
@@ -391,4 +394,251 @@ public class HibernateTest extends BaseTest{
                 .executeUpdate();
     }
 
+
+    // 二级缓存 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+    @Test
+    public void testHibernateSecondLevelCache(){
+        Employee employee = (Employee) session.get(Employee.class, 1);
+        System.out.println(employee.getName());
+
+        transaction.commit();
+        session.close();
+
+        session = sessionFactory.openSession();
+        transaction = session.beginTransaction();
+
+        /*
+            <cache name="indi.sword.hibernate.query.Employee"
+            maxElementsInMemory="1"
+            eternal="false"
+            timeToIdleSeconds="3" //这里设置小一点，待会就会继续去发select了
+            timeToLiveSeconds="3"
+            overflowToDisk="true"
+            />
+         */
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("--------------------------------------------------");
+        // 不会再发select语句，因为Employee不是存在session里面，而是存在sessionfactory里面的
+        Employee employee2 = (Employee) session.get(Employee.class, 1);
+        System.out.println(employee2.getName());
+    }
+
+    @Test
+    public void testCollectionSecondLevelCache(){
+        Department dept = (Department) session.get(Department.class, 1);
+        System.out.println(dept.getName());
+        System.out.println(dept.getEmps().size());
+
+        transaction.commit();
+        session.close();
+
+        session = sessionFactory.openSession();
+        transaction = session.beginTransaction();
+        /*
+             <cache name="indi.sword.hibernate.query.Department.emps"
+            maxElementsInMemory="1000"
+            eternal="true"  // 永久
+            timeToIdleSeconds="0"
+            timeToLiveSeconds="0"
+            overflowToDisk="false"
+            />
+         */
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("--------------------------------------------------");
+        Department dept2 = (Department) session.get(Department.class, 1);
+        System.out.println(dept2.getName());
+        System.out.println(dept2.getEmps().size());
+    }
+
+    @Test
+    public void testQueryCache(){
+        Query query = session.createQuery("FROM Employee");
+        query.setCacheable(true);
+
+        List<Employee> emps = query.list();
+        System.out.println(emps.size());
+        System.out.println("--------------------------------------------------");
+        emps = query.list();
+        System.out.println(emps.size());
+
+        Criteria criteria = session.createCriteria(Employee.class);
+        criteria.setCacheable(true);
+    }
+
+    @Test
+    public void testUpdateTimeStampCache(){
+        Query query = session.createQuery("FROM Employee");
+        query.setCacheable(true);
+
+        List<Employee> emps = query.list();
+        System.out.println(emps.size());
+
+        System.out.println("-------------------------------------");
+        Employee employee = (Employee) session.get(Employee.class, 1);
+        employee.setSalary(30000);
+        System.out.println("-------------------------------------");
+        emps = query.list();
+        System.out.println(emps.size());
+    }
+
+    /*
+        Query 接口的 iterator() 方法同 list() 一样也能执行查询操作
+        list() 方法执行的 SQL 语句包含实体类对应的数据表的所有字段
+        Iterator() 方法执行的SQL 语句中仅包含实体类对应的数据表的 ID 字段
+
+        当遍历访问结果集时, 该方法先到 Session 缓存及二级缓存中查看是否存在特定 OID 的对象,
+        如果存在, 就直接返回该对象, 如果不存在该对象就通过相应的 SQL Select 语句到数据库中加载特定的实体对象
+
+        多数情况下, 应考虑使用 list() 方法执行查询操作. iterator() 方法仅在满足以下条件的场合, 可以稍微提高查询性能:
+        要查询的数据表中包含大量字段
+        启用了二级缓存, 且二级缓存中可能已经包含了待查询的对象
+
+     */
+    @Test
+    public void testQueryIterate() {
+
+        Query query = session.createQuery("FROM Employee e WHERE e.dept.id = 1");
+        System.out.println("-----------------------");
+
+        Iterator<Employee> empIt = query.iterate();
+        System.out.println("------------------------");
+        while (empIt.hasNext()) {
+            System.out.println(empIt.next().getId());
+        }
+    }
+
+    @Test
+    public void testQueryIterate2() {
+        // 启用了二级缓存, 且二级缓存中可能已经包含了待查询的对象
+        Department dept = (Department) session.get(Department.class, 1);
+        System.out.println(dept.getName());
+        System.out.println(dept.getEmps().size());
+
+        Query query = session.createQuery("FROM Employee e WHERE e.dept.id = 1");
+        System.out.println("-----------------------");
+//		List<Employee> emps = query.list();
+//		System.out.println(emps.size());
+
+        Iterator<Employee> empIt = query.iterate();
+        System.out.println("------------------------");
+        /*
+            当遍历访问结果集时, 该方法先到 Session 缓存及二级缓存中查看是否存在特定 OID 的对象,
+            如果存在, 就直接返回该对象, 如果不存在该对象就通过相应的 SQL Select 语句到数据库中加载特定的实体对象
+         */
+        while (empIt.hasNext()) {
+            System.out.println(empIt.next().getName());
+        }
+    }
+
+    @Test
+    public void testManageSession(){
+
+        //获取 Session
+        //开启事务
+        Session session = HibernateUtils.getInstance().getSession();
+        System.out.println("-->" + session.hashCode());
+        Transaction transaction = session.beginTransaction();
+
+        DepartmentDao departmentDao = new DepartmentDao();
+
+        Department dept = new Department();
+        dept.setName("Dept");
+
+        departmentDao.save(dept);
+        departmentDao.save(dept);
+        departmentDao.save(dept);
+
+        //若 Session 是由 thread 来管理的, 则在提交或回滚事务时, 已经关闭 Session 了.
+        transaction.commit();
+        /*
+            若 threadA 再次调用 SessionFactory 对象的 getCurrentSession() 方法时,
+             该方法会又创建一个新的 Session(sessionB) 对象, 把该对象与 threadA 绑定, 并将 sessionB 返回
+
+         */
+        session = HibernateUtils.getInstance().getSession();
+        System.out.println("-->" + session.hashCode());
+        System.out.println(session.isOpen());
+    }
+
+    /*
+        通过 Session 来进行批量操作
+        Session 的 save() 及 update() 方法都会把处理的对象存放在自己的缓存中.
+        如果通过一个 Session 对象来处理大量持久化对象, 应该及时从缓存中清空已经处理完毕并且不会再访问的对象.
+        具体的做法是在处理完一个对象或小批量对象后, 立即调用 flush() 方法刷新缓存, 然后在调用 clear() 方法清空缓存
+
+        通过 Session 来进行处理操作会受到以下约束
+        需要在  Hibernate 配置文件中设置 JDBC 单次批量处理的数目, 应保证每次向数据库发送的批量的 SQL 语句数目与 batch_size 属性一致 (配置在 *.hbm.xml 里面)
+        若对象采用 “identity” 标识符生成器, 则 Hibernate 无法在 JDBC 层进行批量插入操作.
+        进行批量操作时, 建议关闭 Hibernate 的二级缓存
+
+        注意: HQL 只支持 INSERT INTO … SELECT 形式的插入语句, 但不支持 INSERT INTO … VALUES 形式的插入语句. 所以使用 HQL 不能进行批量插入操作
+
+        形式上看，StatelessSession与session的用法类似。StatelessSession与session相比，有以下区别:
+        StatelessSession没有缓存，通过StatelessSession来加载、保存或更新后的对象处于游离状态。
+        StatelessSession不会与Hibernate的第二级缓存交互。
+        当调用StatelessSession的save()、update()或delete()方法时，这些方法会立即执行相应的SQL语句，而不会仅计划执行一条SQL语句
+        StatelessSession不会进行脏检查，因此修改了Customer对象属性后，
+        还需要调用StatelessSession的update()方法来更新数据库中数据。StatelessSession不会对关联的对象进行任何级联操作
+        通过同一个StatelessSession对象两次加载OID为1的Customer对象，得到的两个对象内存地址不同。
+        StatelessSession所做的操作可以被Interceptor拦截器捕获到，但是会被Hibernate的事件处理系统忽略掉。
+
+     */
+    @Test
+    public void testBatchSave(){
+        session.doWork(new Work() {
+            @Override
+            public void execute(Connection connection) throws SQLException {
+                //通过 JDBC 原生的 API 进行操作, 效率最高, 速度最快!
+                News news = null;
+                for (int i = 0 ; i < 1000;i++){
+                    news = new News();
+                    news.setTitle("--" + i);
+                    session.save(news);
+
+                    if((i + 1) % 20 == 0){
+                        session.flush();
+                        session.clear();
+                    }
+                }
+            }
+        });
+    }
+
+    /*
+        批量更新: 在进行批量更新时, 如果一下子把所有对象都加载到 Session 缓存, 然后再缓存中一一更新, 显然是不可取的
+        使用可滚动的结果集 org.hibernate.ScrollableResults, 该对象中实际上并不包含任何对象,
+        只包含用于在线定位记录的游标. 只有当程序遍历访问 ScrollableResults 对象的特定元素时,
+        它才会到数据库中加载相应的对象.
+
+         org.hibernate.ScrollableResults 对象由 Query 的 scroll 方法返回
+     */
+    @Test
+    public void testBatchUpdate(){
+        session.doWork(new Work() {
+            @Override
+            public void execute(Connection connection) throws SQLException {
+                ScrollableResults sr = session.createQuery("from News").scroll();
+
+                int count = 0;
+                while(sr.next()){
+                    News n = (News)sr.get(0);
+                    n.setTitle(n.getTitle() + "*****");
+                }
+                if(((count++) + 1) % 100 == 0){
+                    session.flush();
+                    session.clear();
+                }
+
+            }
+        });
+    }
 }
